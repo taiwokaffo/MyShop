@@ -101,6 +101,7 @@ namespace MyShop.WebUI.Controllers
                 return RedirectToAction("Index");
             }
         }
+
         public ActionResult Delete(string Id)
         {
             Product productToDelete = context.Find(Id);
